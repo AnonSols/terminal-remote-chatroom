@@ -12,7 +12,7 @@ server_socket.bind(ADDR)
 server_socket.listen(PORT)
 print(f"Server is listening on {HOST}")
 
-#would modify code to use an external database instead
+#would modify code to use an external database instead with the sqlite3 or mongodb
 clients = []
 nicknames = []
 
